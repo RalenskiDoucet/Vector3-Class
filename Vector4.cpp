@@ -1,6 +1,15 @@
-#include "Vector4.h"
 #include <math.h> 
+#include "Vector4.h"
 
+
+
+Vector4::Vector4()
+{
+	Vector4 V4;
+	mX;
+	mY;
+	mZ;
+}
 
 Vector4::Vector4(float x, float y, float z)
 {
@@ -36,13 +45,13 @@ Vector4 Vector4::operator*(Vector4 & other)
 	return V4;
 }
 
-Vector4 Vector4::operator==(Vector4 & other)
+bool Vector4::operator==(Vector4 & other)
 {
-	Vector4 V4;
-	V4.mX = mX == other.mX;
-	V4.mY = mY == other.mY;
-	V4.mZ = mZ == other.mZ;
-	return V4;
+	if (mX == other.mX && mY == other.mY)
+	{
+		return true;
+	}
+	return false;
 }
 
 float Vector4::dot(Vector4 & other)
@@ -63,13 +72,16 @@ Vector4 Vector4::Cross(Vector4 & other)
 	return V4;
 }
 
-float Vector4::magnitude()
+float Vector4::Magnitude()
 {
 	float mag = sqrt((mX * mX) + (mY*mY));
 	return  mag;
 }
 
-Vector4 Vector4::normalize()
+Vector4 Vector4::Normalize()
 {
-	return Vector4();
+	Vector4 V4;
+	V4.mX = mX / Magnitude();
+	V4.mY = mY / Magnitude();
+	return V4;
 }

@@ -1,8 +1,11 @@
 #include "Vector2.h"
+#include<math.h>
 
 Vector2::Vector2()
 {
-	Vector2 V3;
+	Vector2 V2;
+	mX;
+	mY;
 }
 
 Vector2::Vector2(float X, float Y)
@@ -13,38 +16,47 @@ Vector2::Vector2(float X, float Y)
 
 Vector2 Vector2::operator+(Vector2 & other)
 {
-	Vector2 V3;
-	V3.mX = mX + other.mX;
-	V3.mY = mY + other.mY;
+	Vector2 V2;
+	V2.mX = mX + other.mX;
+	V2.mY = mY + other.mY;
 
-	return V3;
+	return V2;
 }
 
 Vector2 Vector2::operator-(Vector2 & other)
 {
-	Vector2 V3;
-	V3.mX = mX - other.mX;
-	V3.mY = mY - other.mY;
-	return V3;
+	Vector2 V2;
+	V2.mX = mX - other.mX;
+	V2.mY = mY - other.mY;
+	return V2;
 }
 
 Vector2 Vector2::operator*(Vector2 & other)
 {
-	Vector2 V3;
-	V3.mX = mX*other.mX;
-	V3.mY = mY*other.mY;
-	return V3;
+	Vector2 V2;
+	V2.mX = mX*other.mX;
+	V2.mY = mY*other.mY;
+	return V2;
 }
 
-Vector2 Vector2::normalise()
+float Vector2::Magnitude()
 {
-
+	float mag = sqrt((mX * mX) + (mY * mY));
+	return  mag;
+}
+Vector2 Vector2::Normalise()
+{
+	Vector2 V2;
+	V2.mX = mX / Magnitude();
+	V2.mY = mY / Magnitude();
+	return V2;
 }
 
-Vector2 Vector2::magnitude()
+bool Vector2::operator==(Vector2 & other)
 {
-	Vector2 V3;
-	V3.mX = mX*mX + mY*mY;
-	V3.mY = mY*mY + mX*mX;
-	return  mX, mY, mZ;
+	if (mX == other.mX && mY == other.mY)
+	{
+		return true;
+	}		
+	return false;
 }

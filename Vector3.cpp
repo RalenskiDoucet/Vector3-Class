@@ -1,6 +1,21 @@
 #include "Vector3.h"
 #include <math.h>
 
+Vector3::Vector3()
+{
+	Vector3 V3;
+	mX;
+	mY;
+	mZ;
+}
+
+Vector3::Vector3(float x, float y, float z)
+{
+	mX = x;
+	mY = y;
+	mZ = z;
+}
+
 Vector3 Vector3::operator+(Vector3 & other)
 {
 	Vector3 V3;
@@ -25,15 +40,6 @@ Vector3 Vector3::operator*(Vector3 & other)
 	V3.mX = mX*other.mX;
 	V3.mY = mY*other.mY;
 	V3.mZ = mZ*other.mZ;
-	return V3;
-}
-
-Vector3 Vector3::operator==(Vector3 & other)
-{
-	Vector3 V3;
-	V3.mX = mX == other.mX;
-	V3.mY = mY == other.mY;
-	V3.mZ = mZ == other.mZ;
 	return V3;
 }
 
@@ -64,6 +70,16 @@ float Vector3::magnitude()
 Vector3 Vector3::normalize()
 {
 	Vector3 V3;
-	V3.mX = 
-	return Vector3();
+	float mag = sqrt((mX * mX) + (mY + mY));
+	V3.mX / mag; V3.mY / mag;
+	return V3;
+}
+
+bool Vector3::operator==(Vector3 & other)
+{
+	if (mX == other.mX && mY == other.mY)
+	{
+		return true;
+	}
+	return false;
 }

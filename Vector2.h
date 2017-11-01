@@ -10,6 +10,7 @@ public:
 	Vector2 operator+(Vector2&other);
 	Vector2 operator-(Vector2&other);
 	Vector2 operator*(Vector2&other);
-	Vector2 normalise();
-	Vector2 magnitude();
+	Vector2 Normalise();
+	float Magnitude();
+	bool operator==(Vector2&other);
 };
