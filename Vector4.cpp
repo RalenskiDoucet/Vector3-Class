@@ -1,14 +1,8 @@
 #include <math.h> 
 #include "Vector4.h"
 
-
-
 Vector4::Vector4()
 {
-	Vector4 V4;
-	mX;
-	mY;
-	mZ;
 }
 
 Vector4::Vector4(float x, float y, float z)
@@ -56,10 +50,10 @@ bool Vector4::operator==(Vector4 & other)
 
 float Vector4::dot(Vector4 & other)
 {
-	Vector4 V4;
-	V4.mX = mX*other.mX + mX * other.mX;
-	V4.mY = mY*other.mY + mY * other.mY;
-	V4.mZ = mZ*other.mZ + mZ*other.mZ;
+	
+	mX = mX*other.mX + mX * other.mX;
+	mY = mY*other.mY + mY * other.mY;
+	mZ = mZ*other.mZ + mZ*other.mZ;
 	return mX; mY; mZ;
 }
 

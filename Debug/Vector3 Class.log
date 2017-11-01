@@ -1,27 +1,3 @@
-﻿  Vector4.cpp
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(7): error C2533: 'Vector4::{ctor}': constructors not allowed a return type
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(8): error C2264: 'Vector4::Vector4': error in function definition or declaration; function not called
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(23): error C2264: 'Vector4::Vector4': error in function definition or declaration; function not called
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(26): warning C4552: '+': operator has no effect; expected operator with side-effect
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(32): error C2264: 'Vector4::Vector4': error in function definition or declaration; function not called
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(41): error C2264: 'Vector4::Vector4': error in function definition or declaration; function not called
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(59): error C2264: 'Vector4::Vector4': error in function definition or declaration; function not called
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(68): error C2264: 'Vector4::Vector4': error in function definition or declaration; function not called
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(77): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(83): error C2264: 'Vector4::Vector4': error in function definition or declaration; function not called
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(84): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector4.cpp(85): warning C4552: '/': operator has no effect; expected operator with side-effect
-  Vector3.cpp
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector3.cpp(66): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector3.cpp(73): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector3.cpp(74): warning C4552: '/': operator has no effect; expected operator with side-effect
-  Vector2.cpp
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector2.cpp(44): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector2.cpp(50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector2.cpp(51): warning C4552: '/': operator has no effect; expected operator with side-effect
-  main.cpp
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\main.cpp(6): error C2628: 'Vector4' followed by 'int' is illegal (did you forget a ';'?)
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\main.cpp(7): error C3874: return type of 'main' should be 'int' instead of 'Vector4'
-  Generating Code...
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector2.cpp(9): warning C4717: 'Vector2::Vector2': recursive on all control paths, function will cause runtime stack overflow
-c:\users\s178029\documents\visual studio 2015\projects\mathforgames\mathforgames\vector3 class\vector3.cpp(10): warning C4717: 'Vector3::Vector3': recursive on all control paths, function will cause runtime stack overflow
+﻿  main.cpp
+  Vector3 Class.vcxproj -> C:\Users\s178029\Documents\Visual Studio 2015\Projects\MathForGames\MathForGames\Debug\Vectors Class.exe
+  Vector3 Class.vcxproj -> C:\Users\s178029\Documents\Visual Studio 2015\Projects\MathForGames\MathForGames\Debug\Vectors Class.pdb (Partial PDB)

@@ -31,9 +31,45 @@ int main()
 	Vector2 x = v - w;
 	Vector2 y = v*a;
 	Vector2 z = d + q;
-
-	Vector2 num1;
-
 	system("pause");
+	a.Normalise();
+	b.Magnitude();
+	c.Normalise();
+	d.Magnitude();
+	e.Normalise();
+	f.Magnitude();
+	g.Normalise();
+	h.Magnitude();
+	i.Normalise();
+	j.Magnitude();
+	k.Normalise();
+	l.Magnitude();
+	m.Normalise();
+	n.Magnitude();
+	r.Normalise();
+	s.Magnitude();
+	t.Normalise();
+	u.Magnitude();
+	v.Normalise();
+	w.Magnitude();
+	x.Normalise();
+	y.Magnitude();
+	z.Normalise();
+	system("pause");
+	bool num1 = a == b;
+	bool num2 = c == d;
+	bool num3 = e == f;
+	bool num4 = g == h;
+	bool num6 = i == j;
+	bool num7 = k == l;
+	bool num8 = m == n;
+	bool num9 = o == p;
+	bool num10 = q == r;
+	bool num11 = s == t;
+	bool num12 = u == v;
+	bool num13 = w == x;
+	bool num14 = y == z;
+	system("pause");
+
 
 }

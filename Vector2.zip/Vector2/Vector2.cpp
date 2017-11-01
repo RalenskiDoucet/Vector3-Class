@@ -3,6 +3,9 @@
 
 Vector2::Vector2()
 {
+	Vector2 V2;
+	mX;
+	mY;
 }
 
 Vector2::Vector2(float X, float Y)

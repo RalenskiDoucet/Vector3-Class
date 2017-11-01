@@ -3,10 +3,6 @@
 
 Vector3::Vector3()
 {
-	Vector3 V3;
-	mX;
-	mY;
-	mZ;
 }
 
 Vector3::Vector3(float x, float y, float z)
@@ -61,13 +57,13 @@ Vector3 Vector3::Cross(Vector3 & other)
 	return V3;
 }
 
-float Vector3::magnitude()
+float Vector3::Magnitude()
 {
 	float mag = sqrt((mX * mX) + (mY*mY));
 	return  mag;
 }
 
-Vector3 Vector3::normalize()
+Vector3 Vector3::Normalize()
 {
 	Vector3 V3;
 	float mag = sqrt((mX * mX) + (mY + mY));
