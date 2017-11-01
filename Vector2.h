@@ -13,3 +13,4 @@ public:
 	float Magnitude();
 	bool operator==(Vector2&other);
 };
+ 

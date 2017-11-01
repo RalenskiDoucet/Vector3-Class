@@ -14,4 +14,4 @@ public:
 	float Magnitude();
 	Vector4 Normalize();
 
-};
+}; 

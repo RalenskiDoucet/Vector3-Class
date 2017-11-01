@@ -57,3 +57,4 @@ bool Vector2::operator==(Vector2 & other)
 	}		
 	return false;
 }
+ 

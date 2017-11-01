@@ -13,4 +13,4 @@ public:
 	Vector3 Cross(Vector3&other);
 	float Magnitude();
 	Vector3 Normalize();
-};
+}; 

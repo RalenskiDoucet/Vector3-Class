@@ -79,3 +79,4 @@ bool Vector3::operator==(Vector3 & other)
 	}
 	return false;
 }
+ 
